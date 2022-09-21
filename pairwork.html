@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pairwork</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="https://www.google.com/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <form action="#" id="form">
+                <!-- logo -->
+                <div class="logo">
+                    <img src="new-google-logo-1441170719116.png" alt="google" width="75" height="45">
+                </div>
+                <h1>Tạo Tài khoản Google</h1>
+                <!-- Firstname input -->
+                <div class="name">
+                    <div class="form-field">
+                        <input type="text" name="firstname" id="firtname" autocomplete="off" autofocus="" required="">
+                        <label for="firstname">Họ</label>
+                    </div>
+                    
+                    <!-- Lastname input -->
+                    <div class="form-field">
+                        <input type="text" name="lastname" id="lastname" autocomplete="off" required="">
+                        <label for="lastname">Tên</label>
+                    </div>
+                </div>
+                <!-- Email input -->
+                <div class="form-field">
+                    <input type="text" name="email" id="email" autocomplete="off" required="">
+                    <label for="">Tên người dùng</label>
+                </div>
+                <small>Bạn có thể sử dụng chữ cái, số và dấu chấm</small>
+    
+                <div>
+                    <span>Sử dụng địa chỉ email hiện tại của tôi</span>
+                </div>
+                <div class="pass">
+                    <!-- Password input -->
+                    <div class="form-field">
+                        <input type="password" name="password" id="passwword" autocomplete="off" required="">
+                        <label for="password">Mật khẩu</label>
+                    </div>
+    
+                    <!-- Confirm password input -->
+                    <div class="form-field">
+                        <input type="password" name="password-confirm" id="password-confirm" autocomplete="off" required="">
+                        <label for="password-confirm">Xác nhận</label>
+                    </div>
+                </div>
+                <small>Sử dụng 8 ký tự trở lên và kết hợp chữ cái, chữ số và biểu tượng &amp; symbols</small>
+                
+                <!-- Show password input -->
+                <div class="check">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Hiện mật khẩu</label>
+                </div>
+
+                <div class="next">
+                    <span>Đăng nhập</span>
+                    <button id="btn">Tiếp theo</button>
+                </div>
+            </form>
+            <div class="content">
+                <figure>
+                    <img src="https://ssl.gstatic.com/accounts/signup/glif/account.svg" alt="" width="244" height="244">
+                    <figcaption>Một tài khoản. Hoạt động trên<br> mọi sản phẩm và dịch vụ của Google.</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="lang">
+                <select name="language" id="language">
+                    <option value="VN">Tiếng Việt</option>
+                    <option value="EN" selected="">English (United States)</option>
+                    <option value="CN">Chinese</option>
+                    <option value="JP">Japanese</option>
+                    <option value="KR">Korean</option>
+                </select>
+            </div>
+            <div class="info">
+                <a href="">Trợ giúp</a>
+                <a href="">Bảo mật</a>
+                <a href="">Điều khoản</a>
+            </div>
+        </div>
+    </div>
+
+    <div style="position: absolute; top: 0px; display: block !important;"></div>
+</body>
+</html>
